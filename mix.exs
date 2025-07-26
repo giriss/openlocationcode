@@ -14,7 +14,8 @@ defmodule OpenLocationCode.MixProject do
       package: [
         licenses: ["MIT"],
         links: %{"GitHub" => "https://github.com/giriss/openlocationcode"}
-      ]
+      ],
+      test_coverage: [summary: [threshold: 98]]
     ]
   end
 
