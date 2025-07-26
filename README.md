@@ -15,12 +15,12 @@ Plus Codes are short, 10-11 character codes that can be used instead of street a
 
 ## Installation
 
-Add `openlocationcode` to your list of dependencies in `mix.exs`:
+Add `olc` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:openlocationcode, "~> 0.1.0"}
+    {:olc, "~> 0.1.0"}
   ]
 end
 ```

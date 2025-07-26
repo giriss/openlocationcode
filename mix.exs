@@ -1,9 +1,9 @@
-defmodule Openlocationcode.MixProject do
+defmodule OpenLocationCode.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :openlocationcode,
+      app: :olc,
       description:
         "An Elixir 💧 implementation of Google's Open Location Code (Plus Code) system for encoding and decoding geographic locations.",
       version: "0.1.0",
