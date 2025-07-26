@@ -4,10 +4,17 @@ defmodule Openlocationcode.MixProject do
   def project do
     [
       app: :openlocationcode,
+      description:
+        "An Elixir 💧 implementation of Google's Open Location Code (Plus Code) system for encoding and decoding geographic locations.",
       version: "0.1.0",
-      elixir: "~> 1.18",
+      elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      source_url: "https://github.com/giriss/openlocationcode",
+      package: [
+        licenses: ["MIT"],
+        links: %{"GitHub" => "https://github.com/giriss/openlocationcode"}
+      ]
     ]
   end
 
